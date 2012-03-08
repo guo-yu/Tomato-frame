@@ -16,9 +16,7 @@ a:active {
 a:visited {
 	
 }
-img {
-	
-}
+
 /* Header */
 #hd {
 	
@@ -40,16 +38,22 @@ img {
 #nav {
 	
 }
-#nav ul {
+.menu {
 	
 }
-#nav li {
+.menu ul {
 	
 }
-#nav li a {
+.menu li {
 	
 }
-#nav li a:hover {
+.menu li a {
+	
+}
+.menu li a:hover {
+	
+}
+.menu-cur a {
 	
 }
 
@@ -57,10 +61,21 @@ img {
 #bn {
 	
 }
-.ibn {
+#ibn {
 	
 }
-
+.bn-title {
+	
+}
+.bn-text {
+	
+}
+.bn-des {
+	
+}
+.bn-btn {
+	
+}
 /* Content */
 #cnt {
 	
@@ -68,38 +83,40 @@ img {
 #icnt {
 	
 }
-
-	/* Post Entry */
-	.entry h1 {
-		
-	}
-	.entry h2 {
-		
-	}
-	.entry h3 {
-		
-	}
-	.entry h4 {
-		
-	}
-	.entry h5 {
-		
-	}
-	.entry h6 {
-		
-	}
-	.entry p {
-		
-	}
-	.entry table {
-		
-	}
-	.entry th {
-		
-	}
-	.entry td {
-		
-	}
+.post {
+	
+}
+/* Post Entry */
+.entry h1 {
+	
+}
+.entry h2 {
+	
+}
+.entry h3 {
+	
+}
+.entry h4 {
+	
+}
+.entry h5 {
+	
+}
+.entry h6 {
+	
+}
+.entry p {
+	
+}
+.entry table {
+	
+}
+.entry th {
+	
+}
+.entry td {
+	
+}
 
 /* Sidebar */
 #sdb {
@@ -125,9 +142,14 @@ img {
 #ift {
 	
 }
+.info {
+	
+}
+.copyright {
+	
+}
 
 /* others */
-
 code{
 	font-family:"Courier New", Courier, mono;
 	font-size:11px;
@@ -156,10 +178,3 @@ caption {
 	margin:0 0 10px 0;
 	text-align:center;
 }
-
-/* css3 */
-
-.ts1d{text-shadow:1px 1px 1px #ddd;-webkit-text-shadow:1px 1px 1px #ddd;-moz-text-shadow:1px 1px 1px #ddd;-o-text-shadow:1px 1px 1px #ddd;}
-.ts10{text-shadow:1px 1px 1px #000;-webkit-text-shadow:1px 1px 1px #000;-moz-text-shadow:1px 1px 1px #000;-o-text-shadow:1px 1px 1px #000;}
-.ts1f{text-shadow:1px 1px 1px #fff;-webkit-text-shadow:1px 1px 1px #fff;-moz-text-shadow:1px 1px 1px #fff;-o-text-shadow:1px 1px 1px #fff;}
-.radius5{-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;-o-border-radius:5px;}

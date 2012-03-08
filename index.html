@@ -1,20 +1,13 @@
-html:xt
-link:css
-link:favicon
-link:touch
-link:rss
-script:src
-meta:compat <!-- 对ie8像ie7一样渲染 -->
-
-<!-- 浏览器排除 -->
-cc:ie <!-- 对ie -->
-cc:noie <!-- 非ie -->
-
-<!-- 单栏布局 A: -->
-div#wrap.w950>((div#header>(div#logo>h1+img.logo)+div#nav>ul>li*5>a)+(div#content.layout.grid-xxx>div.banner+div.post>h2+p)+div#footer>(div.ftrlinks>ul>li*5>a)+div.copyright)
-
-<!-- 左右双栏 B:  以此为准，最后更新于2010-11-12 -->
-div#wrap>((div#header>(div.inner-header.w950.clearfix>(div#logo>h1>a))+(div#nav>ul.inner-nav.clearfix>li*5>a))+div#banner>div.inner-banner.w950.clearfix>ul>li*3+(div#content.layout.grid-xxx.w950>((div#main-content.col-main>div.post.main-wrap>div.entry>h2+p)+div#sidebar.col-sub>div.sidemenu)))+(div#footer.w950>(div.ftrlinks>ul>li*5>a)+div.copyright>p+a.top)
-
-<!-- 三栏布局 C: -->
-div#wrap.w950>((div#header>(div#logo>h1+img.logo)+div#nav>ul>li*5>a)+(div#content.layout.grid-xxx>(div.banner+(div#main-content.col-main>div.post.main-wrap>h2+p)+div#sidebar.col-sub+div#extrabar.col-extra))+div#footer>(div.ftrlinks>ul>li*5>a)+div.copyright>p)
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="zh-CN">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+	<title>Site Title</title>
+	<link rel="stylesheet" type="text/css" href="./css/style.css" media="screen" />
+	<script type="text/javascript" src="./js/jquery-1.6.2.min.js"></script>
+	<script type="text/javascript" src="./js/custom.js"></script>
+</head>
+<body>
+	#wrap>(#hd>#ihd.container_12.clearfix>(#logo>h1>a{Logo})+(#nav>ul.menu.clearfix>li*3>a{nav-item}))+(#bn>#ibn.container_12.clearfix>h2.bn-title+(div.bn-text>div.bn-des+a.bn-btn))+(#cnt>#icnt.container_12.clearfix>div.post>p{Professionally whiteboard best-of-breed total linkage vis-a-vis business schemas. Dramatically productize pandemic schemas rather than economically.}*3)+(#ft>#ift.container_12.clearfix>div.info>p.copyright{&copy; 2012})
+</body>
+</html>
