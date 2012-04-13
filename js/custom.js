@@ -1,12 +1,8 @@
-$(document).ready(function() {
-	// set background-image
-	//	$.backstretch("./images/bn3.jpg", {
-	//		speed: 150
-	//	});
-	
-	// demo nav current switch
-	//	$(".menu a").click(function() {
-	//		$(this).parent().siblings().removeClass("menu-cur")
-	//		$(this).parent().addClass("menu-cur");
-	//	});
+// feel free to write some sth cool...
+define(function(require) {
+//	require.async('mp3' , function () {
+//		audiojs.events.ready(function() {
+//		    audiojs.createAll();
+//		});
+//	});
 });
