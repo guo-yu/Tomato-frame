@@ -1,6 +1,3 @@
-/* CSS3 */
-@import "animate.css";
-
 /* text-shadow */
 .ts1d {text-shadow:1px 1px 1px #ddd;-webkit-text-shadow:1px 1px 1px #ddd;-moz-text-shadow:1px 1px 1px #ddd;-o-text-shadow:1px 1px 1px #ddd;}
 .ts10 {text-shadow:1px 1px 1px #000;-webkit-text-shadow:1px 1px 1px #000;-moz-text-shadow:1px 1px 1px #000;-o-text-shadow:1px 1px 1px #000;}

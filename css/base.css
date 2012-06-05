@@ -18,7 +18,7 @@ a:visited {
 }
 
 /* Header */
-#hd {
+header {
 	
 }
 #ihd {
@@ -35,7 +35,7 @@ a:visited {
 }
 
 /* Nav Menu*/
-#nav {
+nav {
 	
 }
 .menu {
@@ -77,7 +77,19 @@ a:visited {
 	
 }
 /* Content */
-#cnt {
+article {
+	
+}
+section {
+	
+}
+.main-section {
+	
+}
+.col-section {
+	
+}
+.section-title {
 	
 }
 #icnt {
@@ -119,30 +131,30 @@ a:visited {
 }
 
 /* Sidebar */
-#sdb {
+aside {
 	
 }
-.sdb-cnt {
+.aside-cnt {
 	
 }
-.sdb-cnt h3 {
+.aside-title {
 	
 }
-.sdb-menu {
+.aside-menu {
 	
 }
-.sdb-menu h3 {
+.aside-menu-title {
+	
+}
+.aside-desc {
 	
 }
 
 /* Footer */
-#ft {
+footer {
 
 }
 #ift {
-	
-}
-.info {
 	
 }
 .copyright {
