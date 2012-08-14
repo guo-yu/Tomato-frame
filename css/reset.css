@@ -58,7 +58,7 @@ vertical-align:text-bottom;
 /* 重置文本格式元素 */
 
 body,button, input, select, textarea /* for ie */ {
-font:12px/1.5 tahoma, Verdana, Arial, Helvetica, "STXihei", simsun, sans-serif;
+font:12px/1.5 tahoma, Verdana, Arial, Helvetica, "STXihei", "Microsoft YaHei", simsun, sans-serif;
 }
 
 address, cite, dfn, em, var { 

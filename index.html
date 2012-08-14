@@ -1,15 +1,68 @@
 <!DOCTYPE HTML>
-<html lang="zh-CN">
+<!--[if lt IE 7 ]><html class="ie6" lang="zh-CN"> <![endif]-->
+<!--[if IE 7 ]><html class="ie7" lang="zh-CN"> <![endif]-->
+<!--[if IE 8 ]><html class="ie8" lang="zh-CN"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="zh-CN"> <!--<![endif]-->
 <head>
 	<meta charset="UTF-8">
 	<title>Site Title</title>
-	<link rel="stylesheet" type="text/css" href="./css/style.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="./css/styles.css" media="screen">
+	<!--[if IE 7]>
+	<link rel="stylesheet" type="text/css" href="./css/font-awesome-ie7" media="screen">
+	<![endif]-->
 	<script type="text/javascript" src="./js/sea.js" data-main="./js/init"></script>
 	<!--[if lt IE 9]>
 	<script type="text/javascript" src="./js/plugins/html5shiv.js"></script>
 	<![endif]-->
 </head>
-<body>	
-	(header>(#ihd.container_12.clearfix>(#logo.grid_4>h1>a{logo})+nav.grid_8>ul.menu.clearfix>li*3>a.demo-data-nav))+(article#bn>#ibn.container_12.clearfix>h2.bn-title.demo-data-title.grid_12+(div.bn-text.grid_12>div.bn-des.demo-data-p+a.bn-btn.demo-data-a))+(article#cnt>#icnt.container_12.clearfix>(section.main-section.grid_12>h4.section-title.demo-data-title+div.section-desc.demo-data-p)+(section.col-section.grid_4*3>(h4.section-title.demo-data-title+div.section-desc.demo-data-p)))+(footer>#ift.container_12.clearfix>div.copyright.grid_12.demo-data-ft)
+<body>
+	<header>
+		<div id="ihd" class="container_12 clearfix">
+			<div id="logo" class="grid_4">
+				<h1><a href="">Tomato</a></h1>
+			</div>
+			<nav class="grid_8">
+				<ul class="menu clearfix" demo='li'>
+					<li><a href=""></a></li>
+					<li><a href=""></a></li>
+					<li><a href=""></a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+	<article id="bn">
+		<div id="ibn" class="container_12 clearfix">
+			<h2 class="bn-title grid_12" demo='title'></h2>
+			<div class="bn-text grid_12">
+				<div class="bn-des" demo='p'></div>
+				<a href="" class="bn-btn" demo='a'></a>
+			</div>
+		</div>
+	</article>
+	<article id="cnt">
+		<div id="icnt" class="container_12 clearfix">
+			<section class="main-section grid_12">
+				<h4 class="section-title" demo='title'></h4>
+				<div class="section-desc" demo='p'></div>
+			</section>
+			<section class="col-section grid_4">
+				<h4 class="section-title" demo='title'></h4>
+				<div class="section-desc" demo='p'></div>
+			</section>
+			<section class="col-section grid_4">
+				<h4 class="section-title" demo='title'></h4>
+				<div class="section-desc" demo='p'></div>
+			</section>
+			<section class="col-section grid_4">
+				<h4 class="section-title" demo='title'></h4>
+				<div class="section-desc" demo='p'></div>
+			</section>
+		</div>
+	</article>
+	<footer>
+		<div id="ift" class="container_12 clearfix">
+			<div class="copyright grid_12" demo='ft'></div>
+		</div>
+	</footer>
 </body>
 </html>

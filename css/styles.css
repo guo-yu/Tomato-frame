@@ -12,11 +12,9 @@
 /* choose your grid system */
 	@import url('./grid/960.css');
 	/* @import url('./grid/1140.css'); */
-/* icon font by twitter : font-awesome-ie7.css for ie7 */
-	@import url('./font/font-awesome.css'); 
+/* icon font by twitter */
+	@import url('./font-awesome.css'); 
 /* your main style here */
 	@import url('./base.css'); 
-/* if your demo will be a WordPress theme. import this */
+/* if your demo will be a WordPress theme. import wp.css */
 	/* @import url('./wp.css'); */ 
-/* Put some suger on your demo */
-	/* @import url('./suger.css'); */  

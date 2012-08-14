@@ -1,0 +1,212 @@
+@charset "utf-8";
+
+/* colors */
+
+@main-color : #444;
+@bg-color : #F4F6F7;
+@key-color: #0099cc;
+@hover-color: @key-color + #444;
+@max-width: 940px;
+
+/* background-images */
+.bg {
+	background: @bg-color url('../images/grid.png');
+}
+
+/* basic */
+
+body {
+	color: @main-color;
+	.bg;
+}
+a {
+	color: @key-color;
+	
+	&:hover {
+		color: @hover-color;
+		text-decoration: none;
+	}
+	&:active {
+		
+	}
+	&:visited {
+		
+	}
+}
+
+/* Header */
+header {
+	#ihd {
+	
+	}
+	#logo {
+		h1 {
+		
+			a {
+				display: block;
+			}
+		}
+	}
+}
+
+/* Nav Menu*/
+nav {
+	.menu {
+		li {
+			a {
+				&:hover {
+				
+				}
+			}
+		}
+		.menu-cur {
+			a {
+			
+			}
+		}
+	}
+}
+
+/* Banner */
+#bn {
+	#ibn {
+		.bn-title {
+			
+		}
+		.bn-des {
+			
+		}
+		.bn-btn {
+			
+		}
+	}
+}
+
+/* Content */
+article {
+	
+}
+section {
+	
+}
+.main-section {
+	
+}
+.col-section {
+	.section-title {
+		
+	}	
+}
+/* Post Entry */
+.entry {
+	h1 {
+	
+	}
+	h2 {
+	
+	}
+	h3 {
+	
+	}
+	h4 {
+	
+	}
+	h5 {
+	
+	}
+	h6 {
+	
+	}
+	p {
+		
+	}
+	table {
+		
+	}
+	th {
+		
+	}
+	td {
+		
+	}
+}
+
+/* Sidebar */
+aside {
+	.aside-cnt {
+		
+	}
+	.aside-title {
+		
+	}
+	.aside-menu {
+		
+	}
+	.aside-menu-title {
+		
+	}
+	.aside-desc {
+		
+	}
+}
+
+/* Footer */
+footer {
+	.copyright {
+		
+	}
+}
+
+/* sugars */
+.transition (@second:0.25s) {
+	-webkit-transition: color @second linear, background-color @second linear, border-color @second linear;
+	-moz-transition: color @second linear, background-color @second linear, border-color @second linear;
+	-o-transition: color @second linear, background-color @second linear, border-color @second linear;
+	transition: color @second linear, background-color @second linear, border-color @second linear;
+}
+.border-radius (@radius: 4px) {
+  border-radius: @radius;
+  -moz-border-radius: @radius;
+  -webkit-border-radius: @radius;
+  -o-border-radius:@radius;
+}
+.box-shadow (@x: 1, @y: 1, @blur: 4px, @color: #efefef) {
+	box-shadow: @arguments;
+	-moz-box-shadow: @arguments;
+	-webkit-box-shadow: @arguments;
+}
+.text-shadow (@x: 1, @y: 1, @blur: 1px, @color: #000) {
+	text-shadow: @arguments;
+	-webkit-text-shadow: @arguments;
+	-moz-text-shadow: @arguments;
+	-o-text-shadow: @arguments;
+}
+/* others */
+code{
+	font-family:"Courier New", Courier, mono;
+	font-size:11px;
+	padding:10px 10px 10px 50px;
+	border:1px solid #ddd;
+	margin:10px 0;
+	display:block;
+	text-indent:0;
+}
+
+table {
+	border-collapse:collapse; 
+	margin:0 0 10px 0; 
+}
+
+th, td {
+	border:1px solid #CCC; padding:10px;
+}
+
+th {
+	font-weight:bold;
+	text-align:center;
+}
+
+caption {
+	margin:0 0 10px 0;
+	text-align:center;
+}
